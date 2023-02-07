@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --some-dark-blue: #604fcd;    
+    --blue-dark: rgb(19, 11, 67);
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'poopins', sans-serif;
+    color: var(--color-dark);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* Utility */
+
+
+.top-up{
+    text-align: center;
+    padding: 12px;
+}
+
+.container{
+    /* border: 1px solid red; */
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+/* top-up */
+
+.top-up{
+    background: var(--blue-dark);
+    width: 100%;
+}
+
+.fortext a{
+    color: white;
+}
+
+.fortext a u{
+    color: #ffd38f;
+}
+
+/* nav */
+
+nav{
+    border-bottom: 1px solid rgb(153, 150, 150);
+}
+
+.color45 li a{
+    color: #5c5589;
+}
+
+.for-space{
+    gap: 60px;
+    padding: 20px;
+}
+.nav-links ul{
+    font-weight: 600;
+    justify-content: end;
+    gap: 30px;
+}
+
+.color-3{
+    color: var(--some-dark-blue) !important;
+}
+
+.primary-button{
+    margin-left: 300px;
+    border: 0.5px solid rgb(53, 52, 52);
+    border-radius: 6px;
+    font-weight: 700px;
+    color: white !important;
+    background: var(--some-dark-blue); 
+    padding: 6px 21px;
+    transition: 0.2s ease-out;
+
+}
+
+.primary-button:hover{
+    background: var(--blue-dark) !important; 
+    transition: 0.5s ease-out;
+}
+
+.secondry-button{
+    border: 0.5px solid var(--some-dark-blue);
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 6px 21px;
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+
+.secondry-button:hover{
+    transition: 0.2s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background: rgba(0, 0, 0, 0.06);
+}
+
+/* header */
+
+header{
+    background: #FBFAFF;
+}
+
+.for-test-header h1{
+    margin-top: 3rem;
+    color: var(--color-dark);
+}
+
+.for-test-header{
+    width: 75%;
+}
+
+.for-test-header p{
+    color: rgb(97, 97, 97);
+    margin-top: 1rem;
+}
+
+.color-black{
+    color: black;
+}
+
+.get-start-btn{
+    margin-top: 30px;
+    margin-left: 0px;
+    box-shadow: rgba(79, 114, 205, 0.4) 0px 4px 7px 0px;  
+    padding: 17px 40px;
+}
+
+.get-start{
+    margin-left: 10px;
+    padding: 17px 40px;
+    box-shadow: rgba(79, 114, 205, 0.4) 0px 4px 7px 0px;  
+}
+
+.for-gradiant{
+    
+    background: white;
+    margin-top: 3rem;
+    width: 80%;
+    border-radius: 6px;
+    border-image: linear-gradient(#fff,#fff),linear-gradient(#20f,#9e00ff);
+    border: 3px solid;
+}
+
+.for-gradiant a img{
+    float: left;
+    padding: 25px 30px;
+}
+
+.controlling{
+    float: left;
+    padding: 20px 0px;
+    color: black;
+}
+
+.for-gradiant p{
+    padding: 6px 0px;
+    margin-left: 30px;
+    float: left;
+}
+
+
+/* Big text section */
+
+.box-left{
+    width: 98.7vw;
+}
+
+.for-centre{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.for-row{
+    gap: 220px;
+}
+
+.for-doubble-logo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../pic/asset\ 24.svg" );
+    height: 80px;
+}
+
+.middle-img{
+    height: 40px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.middle-img3{
+    width: 17% !important;
+    margin-top: 20px;
+}
+
+.for-row h2{
+    margin-top: 10px;
+}
+
+/* Language section */
+
+.under-container-language-logo{
+    /* border: 1px solid salmon; */
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.multi-boxes{
+    margin-top: 25px;
+    width: 16.6%;
+    text-align: center;
+}
+
+.multi-boxes:hover{
+    margin-top: 0px;
+    /* transition: 0.5s; */
+    transition: .5s ease-out;
+}
+
+.multi-boxes h4{
+    color: var(--blue-dark);
+}
+
+.multi-boxes p{
+    font-size: 0.5rem;
+    color: gray;
+}
+
+/* For lining */
+
+.for-textalign{
+    margin-top: 60px;
+}
+
+.for-lines{
+    border: 2px solid #E1EBFF;
+    width: 40%;
+}
+
+.multi-languages62{
+    text-align: center;
+    background: #E1EBFF;
+    height: 40px;
+    width: 20%;
+    border-radius: 30px;
+}
+
+.multi-languages62 h5{
+    font-size: 17px;
+    color: var(--color-dark);
+    margin-top: 10px;
+}
+
+/* Poster and header like */
+
+.for-top{
+    margin-top: 90px;
+}
+
+.two-under{
+    width: 100%;
+}
+
+.half-text-design{
+    width: 50%;
+}
+
+.for-half-poster{
+    background-image: url(../pic/asset\ 10.jpeg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+    height: 800px;
+    background-size: 100%;
+}
+
+.under-some-logo{
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.for-img-width{
+    width: 10%;
+    margin: 40px;
+}
+
+.alliersa{
+    color: black;
+    font-weight: 700; 
+    padding-inline: 10px; 
+}
+
+.for-back-color{
+    background: #FBFAFF;
+}
+
+.browser-edit-section{
+    justify-content: space-between;
+    padding: 75px;
+}
+
+.same-as-name{
+    width: 30%;
+}
+
+.same-as-name h4{
+    color: black;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.same-as-name p{
+    line-height: 1.8;
+    color: #7D6855;
+}
+
+/* Conversion section */
+
+.conversion-with-girl{
+    background: url(../pic/asset\ 26.svg) no-repeat;
+    background-position-x: center;
+    border: 1px solid white;
+    
+}
+.for-margin-top{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+}
+
+.for-doubble-logo2{
+    background-repeat: no-repeat;
+    background-image: url("../pic/asset\ 24.svg" );
+    height: 80px;   
+}
+
+.margin-line-logo{
+    margin-top: 10px;
+    width: 10%;
+}
+
+/* Big banner */
+.for-shadow{
+    width: 100%;
+    box-shadow:  rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(79, 114, 205, 0.3) 0px 4px 42px 0px;
+}
+.big-banner{
+    width: 100%;
+}
+
+/*  */
+
+
+.for-textbjb{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.for-bottom-logo{
+    margin-top: -20px;
+}
+
+/* Top footer */
+
+.footer-top{
+    background: var(--blue-dark);
+}
